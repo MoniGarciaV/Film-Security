@@ -11,6 +11,10 @@ body{
     margin: 0;
 }
 
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+li{ font-size: 1em;}
+
 /* Header */
 
 .container{
@@ -208,4 +212,192 @@ button:hover{
     margin: 16px 0px;
     font-weight: bold;
     color: gray;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container p{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+footer .container a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer .container i{
+    padding-right: 15px;
+
+}
+
+footer i{
+    font-size: 30px;
+    
+}
+
+/* Media queers */
+
+@media (min-width: 1000px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    .jumbotron h1{
+        font-size: 5em;
+    }
+
+    .jumbotron p {
+        align-items: center;
+        font-size: 1.5em;
+        color: white;
+        padding: 0px 90px;
+    }
+    
+    .jumbotron form {
+        text-align: center;
+        color: aliceblue;
+        font-size: 20px;
+    
+    }
+    
+    .jumbotron #email {
+        border  : none;
+        margin  : 0;
+        width   : 300px;
+        height: 25px;
+        text-align: center;
+        border: 1px solid rgba(0,0,0,0.3);
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+
+    #somos-film .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-film .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-film h2{
+        margin-top: 0px;
+    }
+
+    #somos-film .img-container{
+        background-image: url("/img/logofilmsecurity.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px; 
+    }
+
+    #Tipos-peliculas .specs{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #Tipos-peliculas p{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #Tipos-peliculas h2{
+        font-size: 4em;
+    }
+
+    #Tipos-peliculas h3{
+        margin-top: 0;
+    }
+
+    #Tipos-peliculas .carta{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/S/aplus-media-library-service-media/5ef4490b-a674-427a-97a8-9f35a5b0089a.__CR0,0,600,450_PT0_SX600_V1___.jpg);
+
+    }
+
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(https://en-mx.ecolab.com/-/media/Ecolab/Ecolab-Home/Images/Markets/Healthcare/Acute-Care/Acute_Care_Hospitals.jpg);
+    }
+
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(https://www.elsoldesanluis.com.mx/incoming/9dbsnj-plaza-comercial-centro-comercial-tienda-locales-negocios.jpg/ALTERNATES/LANDSCAPE_1140/plaza%20comercial%20centro%20comercial%20tienda%20locales%20negocios.jpg);
+
+    }
+
+    #caracteristicas .container{
+        text-align: center;
+    }
+
+    #caracteristicas p{
+        color: #ff702d;
+        margin-left: 0px;
+    }
+
+    #caracteristicas ul{
+        margin-left: 0px;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
 }
