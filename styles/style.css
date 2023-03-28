@@ -11,6 +11,8 @@ body{
     margin: 0;
 }
 
+/* Header */
+
 .container{
     max-width: 1400px;
     margin: auto;
@@ -51,6 +53,8 @@ header a{
 header a:hover{
     color: #ff702d;
 }
+
+/* Jumbotron  */
 
 section .jumbotron {
     background:linear-gradient(
@@ -114,4 +118,74 @@ button{
 
 button:hover{
     background-color: rgb(255, 124, 37);
+}
+
+/* Blog  */
+
+#somos-film .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.acento{ color: #ff6600; }
+
+#Tipos-peliculas{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    text-align: center;
+}
+
+#Tipos-peliculas .container{
+    padding: 150px 12px;
+}
+
+#Tipos-peliculas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Tipos-peliculas small{
+    font-size: .4em;
+}
+
+#Tipos-peliculas p{
+    display: none;
+}
+
+#Tipos-peliculas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 25px 10px;
+    margin: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/S/aplus-media-library-service-media/5ef4490b-a674-427a-97a8-9f35a5b0089a.__CR0,0,600,450_PT0_SX600_V1___.jpg);
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://en-mx.ecolab.com/-/media/Ecolab/Ecolab-Home/Images/Markets/Healthcare/Acute-Care/Acute_Care_Hospitals.jpg);
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://www.elsoldesanluis.com.mx/incoming/9dbsnj-plaza-comercial-centro-comercial-tienda-locales-negocios.jpg/ALTERNATES/LANDSCAPE_1140/plaza%20comercial%20centro%20comercial%20tienda%20locales%20negocios.jpg);
+
 }
