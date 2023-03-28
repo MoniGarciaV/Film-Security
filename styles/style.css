@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: #ff702d;
+}
+
+section .jumbotron {
+    background:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+        ,url(https://i0.wp.com/www.cristakar.com.mx/wp-content/uploads/2022/09/2.Pelicula-de-Seguridad-y-proteccion-solar.jpg?fit=1000%2C513&ssl=1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    font-size: 5em;
+    color: #ff702d;
+    margin: 0;
+}
+
+.jumbotron p {
+    align-items: center;
+    font-size: 1.25em;
+    color: white;
+    padding: 0px 90px;
+}
+
+.jumbotron form {
+    text-align: center;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+
+.jumbotron #email {
+    border  : none;
+    margin  : 0;
+    width   : 300px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+button{
+    font-size: .8em;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #ff6600;
+}
+
+button:hover{
+    background-color: rgb(255, 124, 37);
+}
