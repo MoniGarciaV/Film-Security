@@ -129,6 +129,8 @@ button:hover{
 
 .acento{ color: #ff6600; }
 
+/* Catálogo */
+
 #Tipos-peliculas{
     background-color: rgb(60, 60, 60);
     color: white;
@@ -188,4 +190,22 @@ button:hover{
     )
     ,url(https://www.elsoldesanluis.com.mx/incoming/9dbsnj-plaza-comercial-centro-comercial-tienda-locales-negocios.jpg/ALTERNATES/LANDSCAPE_1140/plaza%20comercial%20centro%20comercial%20tienda%20locales%20negocios.jpg);
 
+}
+
+/* Adicionales */
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 100px 50px;
+}
+
+#caracteristicas p{
+    color: #ff702d;
+    margin-left: 0px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+    color: gray;
 }
