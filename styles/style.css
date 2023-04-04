@@ -320,7 +320,7 @@ footer i{
     }
 
     #somos-film .img-container{
-        background-image: url("images/logo.png");
+        background-image: url("/images/logo.png");
         background-size: cover;
         background-position: center center;
         height: 500px;
